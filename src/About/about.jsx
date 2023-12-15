@@ -35,7 +35,7 @@ function about() {
             <div className="baksha">
               <div className="box2"><p>&#128214; Algorithms-1</p></div>
               <div className="box2"><p>&#128214; Discrete Mathematics</p></div>
-              <div className="box2"><p>&#128214; Probablity and Statisticks</p></div>
+              <div className="box2"><p>&#128214; Probablity and statistics</p></div>
               <div className="box2"><p>&#128214; Linear Algebra</p></div>
               <div className="box2"><p>&#128214; Programming and Data Structures</p></div>
 
