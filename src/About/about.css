@@ -1,0 +1,158 @@
+.about {
+    width: 100vw;
+    height: 100vh;
+    /* border: solid red; */
+    margin-bottom: 30px;
+}
+
+.about .skill {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: calc(100% - 90%);
+    /* border: solid green; */
+
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    justify-content: space-between;
+
+}
+
+.about .skill .area1 {
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about .skill .area1 h1,
+.area2 h1 {
+    font-size: 35px;
+    font-weight: 790;
+}
+.area2 h1{
+    margin-top: 40px;
+}
+.about .skill .area1 span {
+    color: rgba(0, 0, 0, 0.295);
+    text-transform: initial;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.about .skill .area1 .boxes {
+    /* border: solid red; */
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about .skill .area1 .boxes .box1 {
+    border: 1px solid rgb(86, 86, 86);
+    border-radius: 5px;
+    margin: 20px;
+    /* background-color: rgb(0, 0, 0); */
+    width: 30%;
+    height: 50%;
+    padding: 10px;
+}
+
+.about .skill .area1 .boxes .box1 p {
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 0px !important;
+}
+
+.about .skill .area1 .boxes .box1 span {
+    font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+    .about .skill {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+
+    .about {
+        height: fit-content;
+    }
+    .about .skill .area1 {
+        width: 100% ;
+    }
+
+    .about .skill .area2 {
+        width: 100% !important;
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+
+    .about .skill .area1 .boxes {
+        height: 300px;
+    }
+}
+
+@media (max-width: 765px) {
+    .about .skill .area1 .boxes {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    .about .skill {
+        height: fit-content;
+    }
+
+    .about {
+        height: fit-content;
+    }
+
+    .about .skill .area1 .boxes .box1 {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+.about .skill .area2 {
+    /* background-color: blue; */
+    /* border: solid blue; */
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about .skill .area2 .baksha {
+    height: 70%;
+    /* background-color: green; */
+    /* border: solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.about .skill .area2 .baksha .box2{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    box-shadow: inset 10px 10px 10px rgba(234, 252, 255, 0.461),
+        inset -10px -10px 10px rgba(234, 252, 255, 0.461);
+}
+
+.about .skill .area2 .baksha .box2 p{
+    margin: 20px;
+}
