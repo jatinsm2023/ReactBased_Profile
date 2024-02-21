@@ -23,7 +23,6 @@ function about() {
                 <span>Total Projects</span>
               </div>
               <div className="box1">
-                <br />
                 <span>C,C++</span><br />
                 <p>120+</p>
                 <span>LeetCode Questions Solved</span>

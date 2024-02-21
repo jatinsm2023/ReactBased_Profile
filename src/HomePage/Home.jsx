@@ -44,7 +44,7 @@ function Home() {
                             <span>I am a second year undergraduate student at IIT Kharagpur, pursuing B.tech in Computer Science and Engineering Department.</span>
                             <br /><br />
                             <p>&#128197; <span> {currentDate}</span></p>
-                            <p>&#128222; <span>+91 8386832034</span></p>
+                            <p>&#128222; <span>+91 8386832934</span></p>
                             <p>&#128231; <span>Jatinmahawar08@gmail.com</span></p>
                             <p>&#127968; <span>IIT Kharagpur</span></p>
 
